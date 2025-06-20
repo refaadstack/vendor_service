@@ -1,0 +1,11 @@
+GET http://localhost:3002/api/vendors
+
+###
+POST http://localhost:3002/api/vendors
+Content-Type: 'application/json'
+{
+    "name": "Vendor 1",
+    "address": "123 Main St",
+    "phone": "123-456-7890",
+    "email": "john.doe@example.com",
+}
